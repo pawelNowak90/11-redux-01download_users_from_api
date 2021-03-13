@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Btn.css';
 
-const Btn = ( {name, classes} ) => {
+const Btn = ( {name, classes, handle} ) => {
     return (
-        <button type="button" className={`btn ${classes}`} >
+        <button onClick={handle} type="button" className={`btn ${classes}`} >
             {name}
         </button>
      );

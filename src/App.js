@@ -3,9 +3,9 @@ import './App.css';
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
 import Nav from './components/Nav';
-import Home from './components/home/Home';
-import UsersContainer from './components/users/UsersContainer';
-import Contact from './components/contact/Contact';
+import Home from './components/home/components/Home';
+import UsersWrapper from './components/users/components/UsersWrapper';
+import Contact from './components/contact/components/Contact';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             </Route>
 
             <Route path="/users">
-                <UsersContainer/>
+                <UsersWrapper/>
             </Route>
 
             <Route path="/contact">

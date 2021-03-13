@@ -13,10 +13,10 @@ class Users extends Component {
     URL = 'https://randomuser.me/api/?results=5';
 
     componentDidMount(){
-        fetch(this.URL).
-        then(res => res.json()).
-        then(data => this.setState({users:data.results})).
-        catch(error => console.log('Wystapil błąd !'));
+        fetch(this.URL)
+            .then(res => res.json())
+            .then(data => this.setState({users:data.results}))
+            .catch(error => console.log('Wystapil błąd !'));
     }
 
     render() {

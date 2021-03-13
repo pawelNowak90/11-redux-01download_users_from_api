@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import Users from './Users';
 
-const UsersContainer = () => {
+const UsersWrapper = () => {
     return ( 
         <Fragment>
             <table className="table table-striped">
@@ -22,4 +22,4 @@ const UsersContainer = () => {
      );
 }
  
-export default UsersContainer;
+export default UsersWrapper;

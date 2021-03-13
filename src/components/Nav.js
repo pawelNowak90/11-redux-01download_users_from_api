@@ -5,7 +5,7 @@ import './Nav.css';
 import { Link } from "react-router-dom";
 
 
-const Nav = ( {} ) => {
+const Nav = ( ) => {
     return ( 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <ul>
